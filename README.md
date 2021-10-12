@@ -54,12 +54,14 @@ The return value is the sum of the 2 numbers
 ##### Task 2
 Create a function called largest.
 The input is a list.
+Your function should convert the list to a tuple so that you can sort
+it and find the largest.
 The return value is the largest value in the list
 (2 points)
 
 ##### Task 3
 Create a function called perimeter()
-The input is a list.
+The input is a list or tuple.
 The return value is the sum of all the numbers in the list
 added together
 (2 points)

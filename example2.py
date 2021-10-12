@@ -14,7 +14,7 @@ def plus(x,y,z):
     # z: any number
     # returns: a list of 3 numbers
     # function adds one to each of the input parameters and returns them
-    return [ x+1, y+1, z+1 ]
+    return ( x+1, y+1, z+1 )
 
 a,b,c = plus(3,4,5)
 print(a)
