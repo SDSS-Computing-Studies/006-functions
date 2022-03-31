@@ -8,6 +8,6 @@ def test1():
 def test2():
   assert task1.sum(8,-2) == 6
   
-  if __name__ == "__main__":
-    test1()
-    test2()
+if __name__ == "__main__":
+  test1()
+  test2()

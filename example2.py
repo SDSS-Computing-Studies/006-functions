@@ -12,9 +12,10 @@ def plus(x,y,z):
     # x: any number
     # y: any number
     # z: any number
-    # returns: a list of 3 numbers
+    # returns: a tuple of 3 numbers
     # function adds one to each of the input parameters and returns them
     return ( x+1, y+1, z+1 )
+
 
 a,b,c = plus(3,4,5)
 print(a)
@@ -25,3 +26,4 @@ print(x)
 y = plus(a,b,10)
 # note that variables can be used as input parameters
 print(y)
+pass

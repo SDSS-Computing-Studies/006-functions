@@ -40,18 +40,18 @@ def double(number):
 # to a variable.
 
 print("==This is an inline use of a function")
-print("The number 4, when doubled is " + str(double(4)) )
+print(f"The number 4, when doubled is { double(4) }" )
 print("\n\n")
 
 
 print("==This is how the value of the function can be assigned")
 x = double(4)
-print("The number 4, when doubled is " + str(x) )
+print(f"The number 4, when doubled is {x}" )
 print("\n\n")
 
 print("==Functions can receive inputs that are variable:")
 num = float(input("Enter a number:"))
-print("The number " + str(num) + " when doubled is " + str(double(num)))
+print(f"The number { num } when doubled is { double(num) }")
 print("or")
 answer = double(num)
 print("The answer is "  + str(answer))
