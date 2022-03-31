@@ -8,3 +8,7 @@ def test1():
 
 def test2():
   assert problem1.hypotenuse(13,5,False) == 12
+  
+if __name__ == "__main__":  
+  test1()
+  test2()
