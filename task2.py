@@ -8,3 +8,6 @@ it and find the largest.
 The return value is the largest value in the list
 (2 points)
 """
+
+if __name__ == "__main__":
+  pass
