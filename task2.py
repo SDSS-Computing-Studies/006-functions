@@ -2,9 +2,10 @@
 """
 ##### Task 2
 Create a function called largest.
-The input is a list.
-Your function should convert the list to a tuple so that you can sort
+The input is a list or tuple.
+Your function should convert any tuples to lists so that you can sort
 it and find the largest.
+If you are stuck, don't forget to refer to your assignment on lists to help you sort (or ask Google)
 The return value is the largest value in the list
 (2 points)
 """
